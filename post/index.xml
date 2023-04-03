@@ -5,12 +5,58 @@
     <link>https://example.com/post/</link>
       <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 03 Apr 2023 17:24:02 +0300</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://example.com/post/</link>
     </image>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://example.com/post/markdown/</link>
+      <pubDate>Mon, 03 Apr 2023 17:24:02 +0300</pubDate>
+      <guid>https://example.com/post/markdown/</guid>
+      <description>&lt;p&gt;2022 is the year the Monster High franchise returns with play line toys, and the start of Generation 3. The first release of the year was Haunt Couture, and 2022 reboot dolls with new styles released on October 1st 2022, along with many playsets and other merchandise for the 2022 re-launch.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My last week</title>
+      <link>https://example.com/post/mylastweek/</link>
+      <pubDate>Mon, 03 Apr 2023 17:11:50 +0300</pubDate>
+      <guid>https://example.com/post/mylastweek/</guid>
+      <description>&lt;h1 id=&#34;host-of-numerous-adventures&#34;&gt;host of numerous adventures&lt;/h1&gt;
+&lt;p&gt;i watched a horror film &amp;lsquo;demons2&amp;rsquo;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Last</title>
+      <link>https://example.com/post/last/</link>
+      <pubDate>Fri, 31 Mar 2023 14:36:13 +0300</pubDate>
+      <guid>https://example.com/post/last/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Magix</title>
+      <link>https://example.com/post/magix/</link>
+      <pubDate>Thu, 09 Mar 2023 20:04:28 +0300</pubDate>
+      <guid>https://example.com/post/magix/</guid>
+      <description>&lt;p&gt;Why is Bloom so powerful?
+Bloom is the most powerful fairy in the magical dimension. This is because her source of power is the Dragon&amp;rsquo;s Flame - the greatest, most ancient magic ever to exist that created all things. However, she has not learned to harness its full power yet.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Last week</title>
+      <link>https://example.com/post/last_week/</link>
+      <pubDate>Thu, 09 Mar 2023 19:41:18 +0300</pubDate>
+      <guid>https://example.com/post/last_week/</guid>
+      <description>&lt;h1 id=&#34;my-last-week-was-ok&#34;&gt;My last week was OK!&lt;/h1&gt;
+</description>
+    </item>
     
     <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
@@ -196,7 +242,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-692154387&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-319854726&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -206,7 +252,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-692154387&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-319854726&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
